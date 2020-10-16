@@ -5,7 +5,7 @@
 }
 
 /* Bakgrundsfärg, textfärg, stoppning, flexbox så att elementen hamnar som kolumner på en rad, wrap så att elementen fortsätter på nästa rad ifall skärmen blir för liten, skapa avstånd mellan elementen, centrera texten vertikalt*/
-.header {
+.navcontent {
   background-color: #a86f32;
   color: white;
   padding: 10px 30px;
@@ -17,33 +17,33 @@
 }
 
 /* Storlek och tjockhet på rubriken */
-.header h1 {
+.navcontent h1 {
   font-size: 3.8em;
   font-weight: normal;
 }
 
 /* Positionen för bilden relativt till headern*/
-.header img {
+.navcontent img {
   position: absolute;
   left: 200px;
   bottom: 15px;
 }
 
 /* Ta bort "punkterna" från listorna, gör så att länkarna ligger horisontellt, storlek på texten */
-.nav {
+.navlinks {
   list-style: none;
   display: flex;
   font-size: 1.5rem;
 }
 /* Ta bort understrykningarna från länkarna, textfärg, förlytta dess position */
-.nav a {
+.navlinks a {
   text-decoration: none;
   color: white;
   margin-left: 15px;
 }
 
 /* När man håller musen över en länk så ska den ändra färg */
-.nav a:hover {
+.navlinks a:hover {
   color: black;
 }
 
@@ -55,31 +55,31 @@
   padding-bottom: 50px;
 }
 
-/* Textstorlek, texttjockhet, centrera texten, stoppning på toppen och botten */
+/* Textstorlek, texttjockhet, centrera texten, stoppning på toppen och botten, textfärg */
 .section h1 {
-  color: #593f2d;
-  padding: 50px 0 30px 0;
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
+  padding: 50px 0 30px 0;
+  color: #593f2d;
 }
 
 /* Stoppning på toppen och botten, centrera texten, textstorlek och textfärg */
 .section h2 {
-  color: #593f2d;
   padding: 40px 0 10px 0;
-  font-size: 2rem;
   text-align: center;
+  font-size: 2rem;
+  color: #593f2d;
 }
 
 /* Stoppning på toppen och botten, avstånd mellan raderna, avstånd mellan varje ord, textstorlek, texttjockhet, textfärg, den maximala bredden på texten, centrera texten */
 .section p {
-  color: #2e2016;
   padding: 30px 0;
   line-height: 1.6;
   word-spacing: 3px;
   font-size: 1.3rem;
   font-weight: normal;
+  color: #2e2016;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -91,8 +91,8 @@
   margin: auto;
 }
 
-/* En liten tom block med en bakgrundsfärg */
-.empty-space {
+/* En tom sidfot med bakgrundsfärg */
+footer {
   height: 90px;
   background-color: #a86f32;
 }
